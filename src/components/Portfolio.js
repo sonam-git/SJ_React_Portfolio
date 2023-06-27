@@ -20,58 +20,58 @@ const Portfolio = () => {
         <ImageList sx={{ width: 1000, marginX: "auto" }} gap={10} cols={3}>
           {[
             {
-              title: "Project 1",
+              title: "MVC Tech Blog",
               description: "CMS-Style Model View Controller Blog",
               imgSrc: sonam,
               deployedLink:
-                "https://thomas-model-view-controller.herokuapp.com/",
+                "https://sj-mvc.herokuapp.com/",
               githubLink:
-                "https://github.com/ThomasCalle/Thomas-Model-View-Controller-MVC-Tech-Blog",
+                "https://github.com/sonam-git/MVC_Tech_Blog",
             },
             {
               title: "Stack Dev Portfolio",
               description: "Built On Advanced CSS",
               imgSrc: sonam,
               deployedLink:
-                "https://thomascalle.github.io/ThomasCalleStackDevPortfolio/",
+                "https://sonam-git.github.io/professional-portfolio/Links",
               githubLink:
-                "https://github.com/ThomasCalle/ThomasCalleStackDevPortfolio",
+                "https://github.com/sonam-git/professional-portfolio",
             },
             {
-              title: "Online Workday Planner",
+              title: "Online Workday Scheduler",
               description: "Third-Party API Sceduler ft. Day.js",
               imgSrc: sonam,
               deployedLink:
-                "https://thomascalle.github.io/Online-Workday-Planner/",
+                "https://sonam-git.github.io/work-day-scheduler/",
               githubLink:
-                "https://github.com/ThomasCalle/Online-Workday-Planner",
+                "https://github.com/sonam-git/work-day-scheduler/",
             },
             {
               title: "Java Script: WEB API Quiz",
-              description: "Dynamically updated HTML/CSS Web API quiz.",
+              description: "Dynamically updated HTML & CSS",
               imgSrc: sonam,
               deployedLink:
-                "https://thomascalle.github.io/JavaScript_Interview_Assessment/",
+                "https://sonam-git.github.io/Code-Quiz/",
               githubLink:
-                "https://github.com/ThomasCalle/JavaScript_Interview_Assessment",
+                "https://github.com/sonam-git/Code-Quiz",
             },
             {
-              title: "10 Things to Do in Toronto",
-              description: "Interactive Front-End Application Guide.",
+              title: "Emotionomics",
+              description: "Third party API implementation",
               imgSrc: sonam,
               deployedLink:
-                "https://thomascalle.github.io/10-Things-To-Do-In-Toronto/",
+                "https://sonam-git.github.io/project_1_emotionomics/",
               githubLink:
-                "https://github.com/ThomasCalle/10-Things-To-Do-In-Toronto#links",
+                "https://github.com/sonam-git/project_1_emotionomics",
             },
             {
               title: "Weather Dashboard",
-              description: "Server-Side APIs: (5) Day Weather Dashboard.",
+              description: "Server-Side APIs:5 Days Weather Dashboard.",
               imgSrc: sonam,
               deployedLink:
-                "https://thomascalle.github.io/Thomas-Weather-Dashboard/",
+                "https://sonam-git.github.io/Weather_Dashboard/",
               githubLink:
-                "https://github.com/ThomasCalle/Thomas-Weather-Dashboard",
+                "https://github.com/sonam-git/Weather_Dashboard",
             },
           ].map((project, index) => (
             // Div container for each project
