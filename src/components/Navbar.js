@@ -65,7 +65,6 @@ const Navbar = ({ links }) => {
           )}
         </Toolbar>
       </AppBar>
-     
     </>
   );
 };

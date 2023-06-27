@@ -1,5 +1,5 @@
 import sonam from "../images/sonam.jpg";
-import { Grid, Typography } from "@mui/material";
+import { Container, Grid, Typography } from "@mui/material";
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
@@ -7,8 +7,8 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
+    height: "100%",
   },
-
   profileImage: {
     width: 300,
     borderRadius: 16,
@@ -20,57 +20,59 @@ export const About = () => {
   const classes = useStyles();
 
   return (
-    <Grid
-      container
-      spacing={2}
-      sx={{ marginTop: "5rem", maxWidth: "1000px", marginX: "auto" }}
-    >
-      <Grid item xs={12} md={12}>
-        <Typography
-          variant="h2"
-          sx={{ textAlign: "center", fontWeight: 400, marginBottom: 2 }}
-        >
-          About Me
-        </Typography>
-      </Grid>
+    <Container id="about" maxWidth="lg" sx={{ marginTop: 14, marginBottom: 20 }}>
+      <Grid container style={{ height: "100%" }}>
+        <Grid item xs={12}>
+          <Typography
+            variant="h2"
+            sx={{ textAlign: "center", fontWeight: 400, marginBottom: 10 }}
+          >
+            About Me
+          </Typography>
+        </Grid>
 
-      <Grid
-        item
-        xs={12}
-        md={4}
-        rowGap={25}
-        className={classes.gridContainer}
-        style={{ marginBottom: 15 }}
-      >
-        <img src={sonam} alt="profile" className={classes.profileImage} />
+        <Grid
+          item
+          xs={12}
+          md={4}
+          className={classes.gridContainer}
+          style={{ marginBottom: 15 }}
+        >
+          <img src={sonam} alt="profile" className={classes.profileImage} />
+        </Grid>
+        <Grid
+          item
+          xs={12}
+          md={8}
+          sx={{
+            backgroundColor: "white",
+            borderRadius: "15px",
+            boxShadow: 3,
+            marginX: "auto",
+          }}
+        >
+          <Typography
+            variant="h5"
+            textAlign={"center"}
+            sx={{ fontWeight: "bold", paddingTop: 2 }}
+          >
+            About Sonam J Sherpa
+          </Typography>
+          <Typography padding={2} textAlign={"justify"} fontSize={".9rem"} sx={{ height: "100%" }}>
+            Sonam Sherpa, a passionate 33-year-old, has discovered his purpose
+            across a diverse array of fields, including Philosophy, Coding, Sports
+            Science, and Technology. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Integer cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac odio
+            eget est convallis ullamcorper. Duis bibendum vestibulum risus, non
+            convallis odio aliquam eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+            cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac odio
+            eget est convallis ullamcorper. Duis bibendum vestibulum risus, non
+            convallis odio aliquam eu.
+          </Typography>
+        </Grid>
       </Grid>
-      <Grid
-        item
-        xs={10}
-        md={8}
-        sx={{
-          backgroundColor: "white",
-          borderRadius: "15px",
-          boxShadow: 3,
-          marginX: "auto",
-        }}
-      >
-        <Typography variant="h5" textAlign={"center"} sx={{ fontWeight: "bold" }}>
-          About Sonam J Sherpa
-        </Typography>
-        <Typography padding={2} textAlign={"justify"} fontSize={".9rem"}>
-          Sonam Sherpa, a passionate 29-year-old, has discovered his purpose
-          across a diverse array of fields, including Philosophy, Coding, Sports
-          Science, and Philanthropy. As a dedicated polymath, Thomas' intellect
-          and steadfast determination to excel led him to embark on an
-          unforgettable journey at the University of Toronto's esteemed 12-week
-          Full-Stack Developer Coding Bootcamp. Fueled by insatiable curiosity
-          and a genuine desire to make a difference in the world, Thomas
-          committed himself to mastering his craft and pursuing excellence in
-          every endeavor, regardless of the challenges he faced.
-        </Typography>
-      </Grid>
-    </Grid>
+    </Container>
   );
 };
+
 export default About;

@@ -71,15 +71,14 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className={classes.section} style={{marginTop: 40}}>
-      <Container>
+      <Container id="contact" className={classes.section} style={{marginTop: 40}}>
         <Typography variant="h2" style={{ textAlign: "center", fontWeight: 400, marginBottom: 25 }}>Contact Me</Typography>
         {messageSent && (
           <Alert variant="filled" severity="success" >
          Your message has been sent successfully!
         </Alert>
         )}
-        <form onSubmit={handleSubmit} noValidate>
+        <form onSubmit={handleSubmit} noValidate style={{marginTop: 80}}>
           <FormGroup className={classes.formGroup} style={{marginTop: 20}}>
             <TextField
               type="text"
@@ -122,7 +121,6 @@ const Contact = () => {
           </Button>
         </form>
       </Container>
-    </section>
   );
 };
 
