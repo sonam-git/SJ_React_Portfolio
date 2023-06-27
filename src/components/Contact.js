@@ -71,7 +71,7 @@ const Contact = () => {
   };
 
   return (
-      <Container id="contact" className={classes.section} style={{marginTop: 40}}>
+      <Container id="contact" className={classes.section} style={{marginTop: 40, marginBottom: 150}}>
         <Typography variant="h2" style={{ textAlign: "center", fontWeight: 400, marginBottom: 25 }}>Contact Me</Typography>
         {messageSent && (
           <Alert variant="filled" severity="success" >

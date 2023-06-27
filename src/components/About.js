@@ -1,6 +1,7 @@
 import sonam from "../images/sonam.jpg";
-import { Container, Grid, Typography } from "@mui/material";
+import { Container, Grid, Typography, Button } from "@mui/material";
 import { makeStyles } from "@material-ui/core/styles";
+import React, { useState } from "react";
 
 const useStyles = makeStyles((theme) => ({
   gridContainer: {
@@ -18,6 +19,13 @@ const useStyles = makeStyles((theme) => ({
 
 export const About = () => {
   const classes = useStyles();
+  const [showFullText, setShowFullText] = useState(false);
+  const handleReadMoreClick = () => {
+    setShowFullText(true);
+  };
+  const handleBackClick = () => {
+    setShowFullText(false);
+  };
 
   return (
     <Container id="about" maxWidth="lg" sx={{ marginTop: 14, marginBottom: 20 }}>
@@ -58,16 +66,74 @@ export const About = () => {
           >
             About Sonam J Sherpa
           </Typography>
-          <Typography padding={2} textAlign={"justify"} fontSize={".9rem"} sx={{ height: "100%" }}>
-            Sonam Sherpa, a passionate 33-year-old, has discovered his purpose
-            across a diverse array of fields, including Philosophy, Coding, Sports
-            Science, and Technology. Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Integer cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac odio
-            eget est convallis ullamcorper. Duis bibendum vestibulum risus, non
-            convallis odio aliquam eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac odio
-            eget est convallis ullamcorper. Duis bibendum vestibulum risus, non
-            convallis odio aliquam eu.
+          <Typography
+            padding={2}
+            textAlign={"justify"}
+            fontSize={".9rem"}
+            sx={{ height: "100%" }}
+          >
+            {showFullText ? (
+              <>
+                Driven by an insatiable curiosity and an unwavering commitment
+                to excellence, Sonam consistently seeks to expand his knowledge
+                and skill set. He is currently undertaking the 24 Weeks Full
+                Stack web Developer course at UC Berkeley Extension, further
+                enhancing his expertise in the field. Notably, Sonam also
+                contributed to the redevelopment of the Burbank Housing website
+                as part of the SRJC web team in 2022, showcasing his dedication
+                to collaborative projects and delivering high-quality results.
+                With a genuine desire to make a difference in the world, Sonam J
+                Sherpa remains steadfast in his pursuit of excellence and his
+                dedication to creating a positive impact in his professional
+                endeavors.
+                <br />
+                Sonam's professional journey has been marked by valuable
+                experiences. He spent over five years working as a server in the
+                restaurant industry, honing his customer service and marketing
+                skills. In Nepal, he served as a Trekking Guide for more than a
+                decade, showcasing his expertise in outdoor adventure and
+                tourism. Additionally, Sonam has been actively involved with the
+                Himalayan Sherpa Club, a Sonoma-based nonprofit organization
+                dedicated to volunteer work and preserving culture abroad.
+                Fueled by insatiable curiosity and a genuine desire to make a
+                difference in the world, Sonam committed himself to mastering
+                his craft and pursuing excellence in every endeavor, regardless
+                of the challenges he faced.
+                
+                {!showFullText && (
+                  <Button onClick={handleReadMoreClick} color="primary">
+                    Read More
+                  </Button>
+                )}
+              </>
+            ) : (
+              <>
+              Sonam J Sherpa, a passionate and dedicated individual, is a
+                seasoned professional with a diverse background and a drive to
+                make a positive impact. With a strong educational foundation,
+                including an AA in Full Stack web development from Santa Rosa
+                Junior College and a Diploma in Electrical Engineering from BSET
+                school in Nepal, Sonam possesses a well-rounded skill set.
+                Beyond his academic achievements, Sonam's interests and hobbies
+                are varied, reflecting his versatile nature. He finds joy in
+                traveling, sports, coding, and designing, allowing him to
+                explore different facets of life and continuously learn and
+                grow. Fluent in English, Nepali, Sherpa, French, and Spanish,
+                Sonam's multilingual capabilities enable effective communication
+                across diverse cultures and communities.
+                <br />
+                {!showFullText && (
+                  <Button onClick={handleReadMoreClick} color="primary">
+                    Read More
+                  </Button>
+                )}
+              </>
+            )}
+            {showFullText && (
+              <Button onClick={handleBackClick} color="primary">
+                Back
+              </Button>
+            )}
           </Typography>
         </Grid>
       </Grid>
