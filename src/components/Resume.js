@@ -55,6 +55,11 @@ const Resume = () => {
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac odio eget est convallis ullamcorper. Duis bibendum vestibulum risus, non convallis odio aliquam eu.
           </Typography>
+          <Typography variant="h6">Diploma in Electrical Engineer</Typography>
+          <Typography variant="h6" style={{ fontWeight: 400 }}>BSET Kathmandu, Nepal 2010</Typography>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac odio eget est convallis ullamcorper. Duis bibendum vestibulum risus, non convallis odio aliquam eu.
+          </Typography>
         </Grid>
 
         <Grid item xs={12} md={6}>
@@ -62,6 +67,12 @@ const Resume = () => {
           <hr className="star-secondary" />
           <Typography variant="h6">Customer Service and Hospitality</Typography>
           <Typography variant="h6" style={{ fontWeight: 400 }}>Worked as Server since 2016</Typography>
+          <Typography style={{ marginBottom: 15 }}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac odio eget est convallis ullamcorper. Duis bibendum vestibulum risus, non convallis odio aliquam eu.
+          </Typography>
+          <br></br>
+          <Typography variant="h6">Trekking and Adventure</Typography>
+          <Typography variant="h6" style={{ fontWeight: 400 }}>Worked as Trekking Guide 2010 - 2015</Typography>
           <Typography style={{ marginBottom: 15 }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac odio eget est convallis ullamcorper. Duis bibendum vestibulum risus, non convallis odio aliquam eu.
           </Typography>
