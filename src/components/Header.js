@@ -2,7 +2,7 @@ import React from "react";
 import { Grid } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChessKnight } from "@fortawesome/free-solid-svg-icons";
+import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { makeStyles } from "@material-ui/core/styles";
 import Navbar from "./Navbar";
 
@@ -49,7 +49,7 @@ console.log('I am Header');
       <Grid container className={classes.container}>
         <Grid item xs={12} className={classes.gridContainer}>
           <FontAwesomeIcon
-            icon={faChessKnight}
+            icon={faCode}
             size="xl"
             className={classes.icon}
           />
@@ -57,7 +57,7 @@ console.log('I am Header');
             Sonam J Sherpa
           </Link>
           <FontAwesomeIcon
-            icon={faChessKnight}
+            icon={faCode}
             flip="horizontal"
             size="xl"
             className={classes.icon}

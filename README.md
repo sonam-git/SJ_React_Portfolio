@@ -4,7 +4,7 @@
 
 ## Description.
 
-The GitHub-Pages launched application showcases Sonam J Sherpa's React Portfolio, which contains (6) highlighted projects of his 24-week Full-Stack Developer boot camp experience at the University Berkeley Extension. The portfolio is designed as a single-page application and demonstrates his proficiency in building modern web applications.
+Sonam J Sherpa's React Portfolio, displayed on the GitHub-Pages launched application, exhibits a collection of (6) notable projects that reflect his journey as a Full-Stack Developer during the 24-week boot camp at the University Berkeley Extension. This portfolio, designed as a single-page application, effectively showcases Sonam's skillset in constructing contemporary web applications.
 
 
 ## Table of Contents:
@@ -17,18 +17,16 @@ The GitHub-Pages launched application showcases Sonam J Sherpa's React Portfolio
 - [Continued Development](#Continued-Development)
 - [License](#License)
 - [Author](#Author)
-- [Acknowledgments](#Acknowledgments)
 
 # Overview
 
 ## The Challenge
-The main objective of this project is to create a single-page application portfolio for a web developer, showcasing their experience and proficiency in building React applications.
+The primary goal of this project is to develop a single-page application portfolio that highlights the expertise and capabilities of a web developer in constructing React applications. The key objectives for this project include:
 
-1. Create a dynamic and user-friendly interface.
-2. Implement smooth navigation between different sections of the portfolio.
-3. Include a contact form with validation and error notifications.
-4. Integrate links to the developer's resume and social media profiles.
-
+1. Developing an interface that is dynamic and user-friendly, ensuring a pleasant browsing experience for visitors.
+2. Implementing smooth navigation functionality that enables seamless transitions between different sections of the portfolio, enhancing usability.
+3. Incorporating a contact form with validation mechanisms and error notifications to ensure accurate and reliable communication with potential clients or employers.
+4. Integrating links to the developer's resume and social media profiles, allowing easy access to additional information and fostering connectivity.
 
 ## Assigned User Story:
 ```
@@ -67,17 +65,15 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ```
 
 ## SJ React Portfolio GIF:
-### Figure 1. GIF.
-
 #### The following animation demonstrates the application functionality:
-![](./src/)
+![Application Gif](./src/images/sjReactPortfolio.gif)
 
 ## Usage Instructions:
-1. Navigate to the deployed application link.
-2. Click on the navigation titles to switch between sections.
-3. View the developer's work samples in the Portfolio section.
-4. Fill out the contact form in the Contact section.
-5. Download the developer's resume in the Resume section.
+1. Access the deployed application by clicking on the provided link.
+2. Use the navigation titles to navigate through different sections of the portfolio.
+3. In the Portfolio section, browse through the showcased work samples of the developer.
+4. Head to the Contact section and fill out the contact form to get in touch with the developer. Ensure that you provide the required information accurately.
+5. Lastly, in the Resume section, you can view the developer's resume to gain further insights into their qualifications and experience.
 
 ## Deployed GitHub-Pages Application Link:
 [Deployed GitHub-Pages Application Link:](https://)
@@ -88,7 +84,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## React Portfolio Screenshots:
 ### Figure 1. Deployed Application Screenshot.
-![]()
+![](./src/images/SjReact.png)
 
 ## Installation Process:
 1. Clone the Repository from GitHub (or) Download Zip Folder from Repository from GitHub.
@@ -97,7 +93,6 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Built With:
 - Dynamic JavaScript
-- How To Create React.md: [Click to Preview Document](./src/documentation/HowToCreateReact.md)
 - JSON: [JSON](https://www.npmjs.com/package/json)
 - Mongoose: [7.0.3](https://www.npmjs.com/package/mongoose)
 - Express: [4.18.2](https://www.npmjs.com/package/express)
@@ -123,25 +118,25 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 - Visual Studio Code: [Website](https://code.visualstudio.com/)
 
 ## What I Learned:
-1. Building a single-page application using React.
-2. Implementing smooth navigation using React Router.
-3. Creating a responsive and visually appealing interface.
-4. Integrating form validation and error handling in React applications.
+1. Gain knowledge and experience in constructing a single-page application using React. This involves understanding the fundamentals of React and utilizing its components, state management, and lifecycle methods to create an interactive and efficient user interface.
+2. Learn how to implement smooth navigation within the single-page application using React Router. This involves setting up routes and configuring navigation links to enable seamless transitions between different sections or pages of the application.
+3. Develop skills in designing a responsive and visually appealing interface. This includes using CSS and styling frameworks to create layouts that adapt well to different screen sizes and devices, ensuring a user-friendly experience across various platforms.
+4. Acquire the ability to integrate form validation and error handling in React applications. This involves utilizing form validation libraries or building custom validation logic to validate user inputs, provide appropriate feedback or error messages, and handle any errors that may occur during form submission.
 
 ### Continued Development:
-1. Add a blog section to showcase the developer's thoughts and experiences.
-2. Implement a search functionality for easier navigation through work samples.
-3. Incorporate testimonials from previous clients or employers.
-4. Integrate a dark mode toggle for better accessibility and user experience.
+1. Expand the portfolio by adding a dedicated blog section where the developer can share their thoughts, experiences, and insights related to web development or technology. This can provide additional value to visitors and showcase the developer's expertise and knowledge in the field.
+2. Enhance the user experience by implementing a search functionality within the portfolio section. This allows users to quickly find specific work samples based on keywords or filters, making it easier for them to navigate through the developer's projects and find relevant examples.
+3. Strengthen credibility and showcase the developer's reputation by incorporating testimonials from previous clients or employers. Testimonials can help build trust and provide social proof of the developer's skills and professionalism.
+4. Improve accessibility and user experience by integrating a dark mode toggle. This allows users to switch between light and dark themes, catering to their preferences and potentially reducing eye strain in low-light environments. Implementing accessibility features demonstrates a commitment to inclusivity and enhances the overall usability of the application.
 
 ## License & Copyright ©
   
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [Open Source Initiative Link](https://opensource.org/licenses/MIT)
 
-### Copyright © 2023 [Sonam J Sherpa](https://github.com/sonam-git)
-
 
 ## Author
 
 Follow me on Github at [Sonam J Sherpa](https://github.com/sonam-git). Additional questions or concerns? feel free to contact me [Sonam J Sherpa](sherpa.sjs@gmail.com).
+
+### Copyright © 2023 [Sonam J Sherpa](https://github.com/sonam-git)
 
