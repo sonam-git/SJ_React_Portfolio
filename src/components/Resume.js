@@ -1,5 +1,9 @@
 import { Grid, Button, Typography, ListItem, List, ListItemText, Container } from "@mui/material";
+import PDF from "./documents/resumesc.png";
 
+// const handleDownload = () => {
+//   window.open(PDF);
+// };
 const Resume = () => {
   console.log('I am Resume');
   return (
@@ -10,11 +14,11 @@ const Resume = () => {
             Resume
           </Typography>
         </Grid>
-        <Grid item xs={12} style={{ marginBottom: 15 }}>
-          <Button variant="contained" color="primary">
+        {/* <Grid item xs={12} style={{ marginBottom: 15 }}>
+          <Button variant="contained" color="primary" onClick={handleDownload}  >
             Download Resume
           </Button>
-        </Grid>
+        </Grid> */}
 
         <Grid item xs={12}>
           <Grid container spacing={2}>
@@ -55,6 +59,13 @@ const Resume = () => {
           <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac odio eget est convallis ullamcorper. Duis bibendum vestibulum risus, non convallis odio aliquam eu.
           </Typography>
+          <br></br>
+          <Typography variant="h6"> 24 Weeks Full Flex Web Developer</Typography>
+          <Typography variant="h6" style={{ fontWeight: 400 }}>UC Berkeley Extension</Typography>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac odio eget est convallis ullamcorper. Duis bibendum vestibulum risus, non convallis odio aliquam eu.
+          </Typography>
+          <br></br>
           <Typography variant="h6">Diploma in Electrical Engineer</Typography>
           <Typography variant="h6" style={{ fontWeight: 400 }}>BSET Kathmandu, Nepal 2010</Typography>
           <Typography>
@@ -71,9 +82,15 @@ const Resume = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac odio eget est convallis ullamcorper. Duis bibendum vestibulum risus, non convallis odio aliquam eu.
           </Typography>
           <br></br>
-          <Typography variant="h6">Trekking and Adventure</Typography>
+          <Typography variant="h6">Trekking and Adventure in Nepal</Typography>
           <Typography variant="h6" style={{ fontWeight: 400 }}>Worked as Trekking Guide 2010 - 2015</Typography>
           <Typography style={{ marginBottom: 15 }}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac odio eget est convallis ullamcorper. Duis bibendum vestibulum risus, non convallis odio aliquam eu.
+          </Typography>
+          <br></br>
+          <Typography variant="h6">Working for Non Profit Organization</Typography>
+          <Typography variant="h6" style={{ fontWeight: 400 }}>Himalayan Sherpa Club</Typography>
+          <Typography>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac odio eget est convallis ullamcorper. Duis bibendum vestibulum risus, non convallis odio aliquam eu.
           </Typography>
         </Grid>
