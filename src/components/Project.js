@@ -1,43 +1,34 @@
-import { Card, Typography,CardMedia,CardContent } from "@material-ui/core";
-import "../style/Project.css";
+import { Card, Typography, CardMedia, CardContent, Button } from "@material-ui/core";
+
 
 // Project component
 function Project(props) {
   return (
     // Card container for each project
-    <Card sx={{borderRadius: '16px',boxShadow: 1 }} >
-      <Typography variant="h6">{props.title}</Typography>
-      <CardMedia
-        component="img"
-        alt={props.imgAlt}
-        height="250"
-        image={props.imgSrc}
-        href={props.deployedLink}
-        target="_blank"
-        rel="noreferrer"
-      />
+    <Card style = {{ borderRadius: '16px', boxShadow: 1, border: ' gray solid' }}>
+      <Typography variant="h6" style ={{textAlign: 'center', padding:5}}>{props.title}</Typography>
+      <div style={{ position: "relative", paddingTop: "56.25%",}}>
+        <CardMedia
+          component="img"
+          alt={props.imgAlt}
+          style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%" }}
+          image={props.imgSrc}
+        />
+      </div>
       <CardContent>
-        
-        <Typography variant="subtitle2" style={{marginBottom: 10}}>{props.description}</Typography>
-        <a
-          href={props.deployedLink}
-          target="_blank"
-          rel="noreferrer"
-          className="btn btn-deployed"
-        >
+        <Typography variant="subtitle2" style={{ marginBottom: 10 }}>
+          {props.description}
+        </Typography>
+        <Button variant="contained" color="primary" href={props.deployedLink} target="_blank" rel="noreferrer" style={{marginRight: 10}}>
           Deployed App
-        </a>
-        <a
-          href={props.githubLink}
-          target="_blank"
-          rel="noreferrer"
-          className="btn btn-repo"
-        >
+        </Button>
+        <Button variant="contained" color="primary" href={props.githubLink} target="_blank" rel="noreferrer">
           GitHub Repo
-        </a>
+        </Button>
       </CardContent>
     </Card>
   );
 }
+
 // Export Project
 export default Project;

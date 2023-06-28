@@ -2,33 +2,39 @@ import { Box, Typography } from "@mui/material";
 import { makeStyles } from "@material-ui/core/styles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { faGithub, faYoutube, faLinkedin, faTiktok } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faYoutube, faLinkedin, faTiktok, faFacebook } from "@fortawesome/free-brands-svg-icons";
 
 // Array of social media objects with name, url, icon, and color
 const socials = [
   {
     name: "GitHub",
-    url: "https://github.com/",
+    url: "https://github.com/sonam-git",
     icon: faGithub,
     color: "#5DE512",
   },
   {
     name: "YouTube",
-    url: "https://www.youtube.com/",
+    url: "https://www.youtube.com/sonamjsherpa",
     icon: faYoutube,
     color: "#FF0000",
   },
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/",
+    url: "https://www.linkedin.com/in/sonam-j-sherpa-0284b4b8/",
     icon: faLinkedin,
     color: "#2EACE8",
   },
   {
     name: "TikTok",
-    url: "https://www.tiktok.com/",
+    url: "https://www.tiktok.com/sjsherpa",
     icon: faTiktok,
     color: "white",
+  },
+  {
+    name: "Facebook",
+    url: "https://www.facebook.com/sonamsherpa",
+    icon: faFacebook,
+    color: "#1877F2",
   },
 ];
 
@@ -77,7 +83,7 @@ export const Footer = () => {
           </a>
         ))}
         <Box >
-      <Typography sx={{marginTop:5, color: 'White'}}>&copy; {new Date().getFullYear()} SJ Sherpa All rights reserved.</Typography>
+      <Typography sx={{marginTop:5, color: 'White', fontFamily: 'monospace'}}>&copy; {new Date().getFullYear()} SJ  All rights reserved.</Typography>
       </Box>
       </Box>
     </Box>

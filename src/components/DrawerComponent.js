@@ -13,6 +13,12 @@ const DrawerComponent = ({ links }) => {
 
   return (
     <>
+      <IconButton
+        style={{ marginLeft: "auto", color: "white" }}
+        onClick={() => setOpen(!open)}
+      >
+        <MenuRoundedIcon />
+      </IconButton>
       <Drawer
         PaperProps={{
           style: { backgroundColor: "rgba(91,151,204,1)" },
@@ -22,26 +28,22 @@ const DrawerComponent = ({ links }) => {
       >
         <List>
           {links.map((link, index) => (
-            <ListItemButton 
-            onClick={handleMenuItemClick} 
-            key={index} 
-            divider
-            component={Link}
-            to={link.to}
+            <ListItemButton
+              onClick={handleMenuItemClick}
+              key={index}
+              divider
+              component={Link}
+              to={link.to}
             >
               <ListItemIcon>
-                <ListItemText sx={{ color: "white" }}>{link.label}</ListItemText>
+                <ListItemText sx={{ color: "white" }}>
+                  {link.label}
+                </ListItemText>
               </ListItemIcon>
             </ListItemButton>
           ))}
         </List>
       </Drawer>
-      <IconButton
-        style={{ marginLeft: "auto", color: "white" }}
-        onClick={() => setOpen(!open)}
-      >
-        <MenuRoundedIcon />
-      </IconButton>
     </>
   );
 };

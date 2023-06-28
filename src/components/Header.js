@@ -1,24 +1,31 @@
 import React from "react";
-import { Container, Grid } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChessKnight } from "@fortawesome/free-solid-svg-icons";
 import { makeStyles } from "@material-ui/core/styles";
+import Navbar from "./Navbar";
 
 const useStyles = makeStyles((theme) => ({
   container: {
-    backgroundColor: theme.palette.primary.dark,
+    backgroundColor: "#222",
     padding: 0,
+    width: "100%",
+    position: "fixed",
+    top: 0,
+    zIndex: 100,
   },
   gridContainer: {
     justifyContent: "center",
     textAlign: "center",
-    marginBottom: 0,
   },
   title: {
-    fontSize: "70px",
+    fontSize: "3rem", // Updated font size for responsiveness
     color: theme.palette.common.white,
     marginBottom: 0,
+    [theme.breakpoints.down("sm")]: {
+      fontSize: "2rem", // Adjust font size for smaller screens
+    },
   },
   link: {
     margin: 0,
@@ -27,28 +34,26 @@ const useStyles = makeStyles((theme) => ({
   },
   icon: {
     color: theme.palette.common.white,
+    fontSize: "3rem", // Updated font size for responsiveness
+    [theme.breakpoints.down("sm")]: {
+      fontSize: "2rem", // Adjust font size for smaller screens
+    },
   },
 }));
 
-
-
-const Header = () => {
+const Header = ({ links }) => {
   const classes = useStyles();
 
   return (
     <>
-    <Container maxWidth="xl" className={classes.container}>
-      <Grid container className={classes.gridContainer}>
-        <Grid item xs={12} className={classes.title}>
+      <Grid container className={classes.container}>
+        <Grid item xs={12} className={classes.gridContainer}>
           <FontAwesomeIcon
             icon={faChessKnight}
             size="xl"
             className={classes.icon}
           />
-          <Link
-            to="/7homas7he7ank-react-portfolio/"
-            className={`${classes.link} ${classes.title}`}
-          >
+          <Link to="/" className={`${classes.link} ${classes.title}`}>
             Sonam J Sherpa
           </Link>
           <FontAwesomeIcon
@@ -59,8 +64,8 @@ const Header = () => {
           />
         </Grid>
       </Grid>
-    </Container>
-       </>
+      <Navbar links={links} />
+    </>
   );
 };
 

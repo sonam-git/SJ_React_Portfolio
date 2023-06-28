@@ -2,8 +2,8 @@ import { Grid, Button, Typography, ListItem, List, ListItemText, Container } fro
 
 const Resume = () => {
   return (
-    <Container fixed style={{marginBottom: 150}}>
-      <Grid container style={{ marginTop: 80, padding: 10, paddingX: 50 }} spacing={2}>
+    <Container fixed style={{marginBottom: 150, backgroundColor: '#222' , color: 'white', borderRadius: 15}}>
+      <Grid container style={{ marginTop: 150, padding: 10, paddingX: 50 }} spacing={2}>
         <Grid item xs={12}>
           <Typography variant="h2" style={{ textAlign: "center", fontWeight: 400, marginBottom: 25 }}>
             Resume
