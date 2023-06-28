@@ -3,9 +3,10 @@ import { Card, Typography, CardMedia, CardContent, Button } from "@material-ui/c
 
 // Project component
 function Project(props) {
+  console.log('I am Project');
   return (
     // Card container for each project
-    <Card style = {{ borderRadius: '16px', boxShadow: 1, border: ' gray solid' }}>
+    <Card style = {{ borderRadius: '16px', boxShadow: "0 5px 8px rgba(10, 20, 10, 5.2)", border: ' gray solid' }}>
       <Typography variant="h6" style ={{textAlign: 'center', padding:5}}>{props.title}</Typography>
       <div style={{ position: "relative", paddingTop: "56.25%",}}>
         <CardMedia

@@ -43,7 +43,7 @@ const useStyles = makeStyles((theme) => ({
 
 const Header = ({ links }) => {
   const classes = useStyles();
-
+console.log('I am Header');
   return (
     <>
       <Grid container className={classes.container}>

@@ -51,6 +51,9 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
 }
+.boxShadow {
+  box-shadow: "0 5px 8px rgba(10, 20, 10, 5.2)",
+}
 /* Set font for code elements */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

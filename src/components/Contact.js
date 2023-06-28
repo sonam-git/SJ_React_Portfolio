@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Container, Typography, FormGroup, TextField, Button } from '@material-ui/core';
 import Alert from '@mui/material/Alert';
 
+//define custom styles using makeStyles hook
 const useStyles = makeStyles((theme) => ({
   section: {
     paddingTop: theme.spacing(8),
@@ -14,6 +15,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const Contact = () => {
+  // state variables defined using the useState
   const classes = useStyles();
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -25,6 +27,7 @@ const Contact = () => {
   const [alertSeverity, setAlertSeverity] = useState('success');
   const [alertMessage, setAlertMessage] = useState('');
 
+  // function to handle user input
   const handleNameChange = (event) => {
     setName(event.target.value);
   };
@@ -63,7 +66,7 @@ const Contact = () => {
     } else {
       setMessageError(false);
     }
-
+// If the form input is valid, it will console log the given output with success msg, otherwise throw an Alert
     if (validForm) {
       console.log(`Name: ${name}, Email: ${email}, Message: ${message}`);
       setName('');
@@ -77,7 +80,7 @@ const Contact = () => {
       setAlertMessage('Please fix the form errors before submitting.');
     }
   };
-
+// sets up a timer using setTimeout when the messageSent state is true
   useEffect(() => {
     if (messageSent) {
       const timer = setTimeout(() => {
@@ -89,7 +92,7 @@ const Contact = () => {
       };
     }
   }, [messageSent]);
-
+  console.log('I am Contact');
   return (
     <Container
       id="contact"
@@ -115,7 +118,7 @@ const Contact = () => {
           backgroundColor: 'white',
           padding: 15,
           borderRadius: 15,
-          boxShadow: 1,
+          boxShadow: "0 5px 8px rgba(10, 20, 10, 5.2)",
         }}
       >
         <FormGroup className={classes.formGroup} style={{ marginTop: 20 }}>

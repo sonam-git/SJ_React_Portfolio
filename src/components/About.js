@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
   profileImage: {
     width: 300,
     borderRadius: 16,
-    boxShadow: "3px 3px 6px rgba(0, 0, 0, 0.3)",
+    boxShadow: "5px 8px 6px rgba(0, 0, 0, 0.3)",
   },
 }));
 
@@ -26,7 +26,7 @@ export const About = () => {
   const handleBackClick = () => {
     setShowFullText(false);
   };
-
+  console.log('I am About');
   return (
     <Container id="about" maxWidth="lg" sx={{ marginTop: 20, marginBottom: 20 }}>
       <Grid container style={{ height: "100%" }}>
@@ -55,7 +55,7 @@ export const About = () => {
           sx={{
             backgroundColor: "white",
             borderRadius: "15px",
-            boxShadow: 3,
+            boxShadow: "0 5px 8px rgba(10, 20, 10, 5.2)",
             marginX: "auto",
           }}
         >

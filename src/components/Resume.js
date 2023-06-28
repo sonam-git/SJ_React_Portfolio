@@ -1,8 +1,9 @@
 import { Grid, Button, Typography, ListItem, List, ListItemText, Container } from "@mui/material";
 
 const Resume = () => {
+  console.log('I am Resume');
   return (
-    <Container fixed style={{marginBottom: 150, backgroundColor: '#222' , color: 'white', borderRadius: 15}}>
+    <Container fixed style={{marginBottom: 150, backgroundColor: '#222' , color: 'white', borderRadius: 15,boxShadow: "0 5px 8px rgba(10, 20, 10, 5.2)"}}>
       <Grid container style={{ marginTop: 150, padding: 10, paddingX: 50 }} spacing={2}>
         <Grid item xs={12}>
           <Typography variant="h2" style={{ textAlign: "center", fontWeight: 400, marginBottom: 25 }}>
@@ -28,7 +29,7 @@ const Resume = () => {
                 </ListItem>
                 <ListItem>
                   <ListItemText>
-                    <strong>Libraries/Frameworks:</strong> React, jQuery, Next, Bootstrap, Material UI, Chakra UI, Bulma
+                    <strong>Libraries / Frameworks:</strong> React, jQuery, Next, Bootstrap, Material UI, Chakra UI, Bulma
                   </ListItemText>
                 </ListItem>
                 <ListItem>
@@ -38,7 +39,7 @@ const Resume = () => {
                 </ListItem>
                 <ListItem>
                   <ListItemText>
-                    <strong>Tools/Platforms:</strong> Git, GitHub, Heroku, Vercel
+                    <strong>Tools / Platforms:</strong> Git, GitHub, Heroku, Vercel
                   </ListItemText>
                 </ListItem>
               </List>
