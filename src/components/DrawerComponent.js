@@ -10,7 +10,7 @@ const DrawerComponent = ({ links }) => {
   const handleMenuItemClick = () => {
     setOpen(false);
   };
-  console.log('I am Drawer');
+  console.log('Rendering Drawer');
   return (
     <>
       <IconButton

@@ -92,7 +92,7 @@ const Contact = () => {
       };
     }
   }, [messageSent]);
-  console.log('I am Contact');
+  console.log('Rendering Contact');
   return (
     <Container
       id="contact"

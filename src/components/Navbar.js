@@ -27,7 +27,7 @@ const Navbar = ({ links }) => {
       "linear-gradient(90deg, rgba(91,151,204,1) 0%, rgba(9,121,12,1) 35%, rgba(0,114,255,1) 100%)",
     marginTop: isMatch ? 50 : 75,
   };
-console.log('I am Navbar');
+console.log('Rendering Navbar');
   return (
     <AppBar style={appBarStyles}>
       <Toolbar>

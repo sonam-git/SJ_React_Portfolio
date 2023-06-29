@@ -64,7 +64,7 @@ const useStyles = makeStyles((theme) => ({
 
 export const Footer = () => {
   const classes = useStyles();
-  console.log('I am Footer');
+  console.log('Rendering Footer');
   return (
     <Box component="footer" className={classes.footer}>
       <Box style={{margin: 'auto'}}>

@@ -1,11 +1,12 @@
 import { Grid, Button, Typography, ListItem, List, ListItemText, Container } from "@mui/material";
-import PDF from "./documents/resumesc.png";
+import PDF from "../documents/sjResume.pdf"
 
-// const handleDownload = () => {
-//   window.open(PDF);
-// };
+
 const Resume = () => {
-  console.log('I am Resume');
+  console.log(' Rendering Resume');
+  const handleDownload = () => {
+    window.open(PDF);
+  };
   return (
     <Container fixed style={{marginBottom: 150, backgroundColor: '#222' , color: 'white', borderRadius: 15,boxShadow: "0 5px 8px rgba(10, 20, 10, 5.2)"}}>
       <Grid container style={{ marginTop: 150, padding: 10, paddingX: 50 }} spacing={2}>
@@ -14,11 +15,11 @@ const Resume = () => {
             Resume
           </Typography>
         </Grid>
-        {/* <Grid item xs={12} style={{ marginBottom: 15 }}>
-          <Button variant="contained" color="primary" onClick={handleDownload}  >
+        <Grid item xs={12} style={{ marginBottom: 15 }}>
+          <Button variant="contained" color="primary"  onClick={handleDownload}>
             Download Resume
           </Button>
-        </Grid> */}
+        </Grid>
 
         <Grid item xs={12}>
           <Grid container spacing={2}>

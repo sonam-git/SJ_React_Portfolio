@@ -26,7 +26,7 @@ export const About = () => {
   const handleBackClick = () => {
     setShowFullText(false);
   };
-  console.log('I am About');
+  console.log('Rendering About');
   return (
     <Container id="about" maxWidth="lg" sx={{ marginTop: 20, marginBottom: 20 }}>
       <Grid container style={{ height: "100%" }}>
