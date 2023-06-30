@@ -43,25 +43,15 @@ const useStyles = makeStyles((theme) => ({
 
 const Header = ({ links }) => {
   const classes = useStyles();
-console.log('Rendering Header');
   return (
     <>
       <Grid container className={classes.container}>
         <Grid item xs={12} className={classes.gridContainer}>
-          <FontAwesomeIcon
-            icon={faCode}
-            size="xl"
-            className={classes.icon}
-          />
+          <FontAwesomeIcon icon={faCode} size="xl" className={classes.icon} />
           <Link to="/" className={`${classes.link} ${classes.title}`}>
             Sonam J Sherpa
           </Link>
-          <FontAwesomeIcon
-            icon={faCode}
-           
-            size="xl"
-            className={classes.icon}
-          />
+          <FontAwesomeIcon icon={faCode} size="xl" className={classes.icon} />
         </Grid>
       </Grid>
       <Navbar links={links} />

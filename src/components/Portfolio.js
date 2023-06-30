@@ -9,13 +9,16 @@ import emotionomics from "../images/emotionomics.png";
 import weather from "../images/weather.png";
 
 const Portfolio = () => {
-  console.log('Rendering Portfolio');
   return (
-    <Container id="portfolio" maxWidth="lg" style={{ margin: "auto", marginTop: 160, marginBottom: 150 }}>
+    <Container
+      id="portfolio"
+      maxWidth="lg"
+      style={{ margin: "auto", marginTop: 160, marginBottom: 150 }}
+    >
       <Typography variant="h2" style={{ textAlign: "center", fontWeight: 400 }}>
         Portfolio
       </Typography>
-      <Grid container spacing={2} style={{marginTop: 70}}>
+      <Grid container spacing={2} style={{ marginTop: 70 }}>
         {[
           {
             title: "MVC Tech Blog",

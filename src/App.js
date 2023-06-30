@@ -8,10 +8,10 @@ import Header from "./components/Header";
 import "./App.css";
 
 const linksArray = [
-  { to: "/about", label: "About Me" },
-  { to: "/portfolio", label: "Portfolio" },
-  { to: "/contact", label: "Contact" },
-  { to: "/resume", label: "Resume" },
+  { to: "/SJ_React_Portfolio/about", label: "About Me" },
+  { to: "/SJ_React_Portfolio/portfolio", label: "Portfolio" },
+  { to: "/SJ_React_Portfolio/contact", label: "Contact" },
+  { to: "/SJ_React_Portfolio/resume", label: "Resume" },
 ];
 
 function App() {

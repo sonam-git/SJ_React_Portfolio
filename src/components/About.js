@@ -26,9 +26,12 @@ export const About = () => {
   const handleBackClick = () => {
     setShowFullText(false);
   };
-  console.log('Rendering About');
   return (
-    <Container id="about" maxWidth="lg" sx={{ marginTop: 20, marginBottom: 20 }}>
+    <Container
+      id="about"
+      maxWidth="lg"
+      sx={{ marginTop: 20, marginBottom: 20 }}
+    >
       <Grid container style={{ height: "100%" }}>
         <Grid item xs={12}>
           <Typography
@@ -86,10 +89,8 @@ export const About = () => {
                 Sherpa remains steadfast in his pursuit of excellence and his
                 dedication to creating a positive impact in his professional
                 endeavors.
-                <br>
-                </br>
-                <br>
-                </br>
+                <br></br>
+                <br></br>
                 Sonam's professional journey has been marked by valuable
                 experiences. He spent over five years working as a server in the
                 restaurant industry, honing his customer service and marketing
@@ -98,16 +99,13 @@ export const About = () => {
                 tourism. Additionally, Sonam has been actively involved with the
                 Himalayan Sherpa Club, a Sonoma-based nonprofit organization
                 dedicated to volunteer work and preserving culture abroad.
-                <br>
-                </br>
-                <br>
-                </br>
+                <br></br>
+                <br></br>
                 Fueled by insatiable curiosity and a genuine desire to make a
                 difference in the world, Sonam committed himself to mastering
                 his craft and pursuing excellence in every endeavor, regardless
                 of the challenges he faced.
-                <br>
-                </br>
+                <br></br>
                 {!showFullText && (
                   <Button onClick={handleReadMoreClick} color="primary">
                     Read More
@@ -122,10 +120,8 @@ export const About = () => {
                 including an AA in Full Stack web development from Santa Rosa
                 Junior College and a Diploma in Electrical Engineering from BSET
                 school in Nepal, Sonam possesses a well-rounded skill set.
-                <br>
-                </br>
-                <br>
-                </br>
+                <br></br>
+                <br></br>
                 Beyond his academic achievements, Sonam's interests and hobbies
                 are varied, reflecting his versatile nature. He finds joy in
                 traveling, sports, coding, and designing, allowing him to

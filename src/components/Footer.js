@@ -2,7 +2,13 @@ import { Box, Typography } from "@mui/material";
 import { makeStyles } from "@material-ui/core/styles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { faGithub, faYoutube, faLinkedin, faTiktok, faFacebook } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faYoutube,
+  faLinkedin,
+  faTiktok,
+  faFacebook,
+} from "@fortawesome/free-brands-svg-icons";
 
 // Array of social media objects with name, url, icon, and color
 const socials = [
@@ -64,27 +70,31 @@ const useStyles = makeStyles((theme) => ({
 
 export const Footer = () => {
   const classes = useStyles();
-  console.log('Rendering Footer');
   return (
     <Box component="footer" className={classes.footer}>
-      <Box style={{margin: 'auto'}}>
+      <Box style={{ margin: "auto" }}>
         {socials.map((social, index) => (
-          <a key={index} 
-          href={social.url} 
-          target="_blank" 
-          rel="noopener noreferrer"
+          <a
+            key={index}
+            href={social.url}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <FontAwesomeIcon
               icon={social.icon}
               className={classes.socialIcon}
-              style={{ color: social.color,marginTop: 5 }}
+              style={{ color: social.color, marginTop: 5 }}
               bounce
             />
           </a>
         ))}
-        <Box >
-      <Typography sx={{marginTop:5, color: 'White', fontFamily: 'monospace'}}>&copy; {new Date().getFullYear()} SJ  All rights reserved.</Typography>
-      </Box>
+        <Box>
+          <Typography
+            sx={{ marginTop: 5, color: "White", fontFamily: "monospace" }}
+          >
+            &copy; {new Date().getFullYear()} SJ All rights reserved.
+          </Typography>
+        </Box>
       </Box>
     </Box>
   );

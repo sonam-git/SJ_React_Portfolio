@@ -1,7 +1,13 @@
-import React, { useState, useEffect } from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import { Container, Typography, FormGroup, TextField, Button } from '@material-ui/core';
-import Alert from '@mui/material/Alert';
+import React, { useState, useEffect } from "react";
+import { makeStyles } from "@material-ui/core/styles";
+import {
+  Container,
+  Typography,
+  FormGroup,
+  TextField,
+  Button,
+} from "@material-ui/core";
+import Alert from "@mui/material/Alert";
 
 //define custom styles using makeStyles hook
 const useStyles = makeStyles((theme) => ({
@@ -17,15 +23,15 @@ const useStyles = makeStyles((theme) => ({
 const Contact = () => {
   // state variables defined using the useState
   const classes = useStyles();
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
   const [nameError, setNameError] = useState(false);
   const [emailError, setEmailError] = useState(false);
   const [messageError, setMessageError] = useState(false);
   const [messageSent, setMessageSent] = useState(false);
-  const [alertSeverity, setAlertSeverity] = useState('success');
-  const [alertMessage, setAlertMessage] = useState('');
+  const [alertSeverity, setAlertSeverity] = useState("success");
+  const [alertMessage, setAlertMessage] = useState("");
 
   // function to handle user input
   const handleNameChange = (event) => {
@@ -66,21 +72,21 @@ const Contact = () => {
     } else {
       setMessageError(false);
     }
-// If the form input is valid, it will console log the given output with success msg, otherwise throw an Alert
+    // If the form input is valid, it will console log the given output with success msg, otherwise throw an Alert
     if (validForm) {
       console.log(`Name: ${name}, Email: ${email}, Message: ${message}`);
-      setName('');
-      setEmail('');
-      setMessage('');
+      setName("");
+      setEmail("");
+      setMessage("");
       setMessageSent(true);
-      setAlertSeverity('success');
-      setAlertMessage('Your message has been sent successfully!');
+      setAlertSeverity("success");
+      setAlertMessage("Your message has been sent successfully!");
     } else {
-      setAlertSeverity('error');
-      setAlertMessage('Please fix the form errors before submitting.');
+      setAlertSeverity("error");
+      setAlertMessage("Please fix the form errors before submitting.");
     }
   };
-// sets up a timer using setTimeout when the messageSent state is true
+  // sets up a timer using setTimeout when the messageSent state is true
   useEffect(() => {
     if (messageSent) {
       const timer = setTimeout(() => {
@@ -92,7 +98,6 @@ const Contact = () => {
       };
     }
   }, [messageSent]);
-  console.log('Rendering Contact');
   return (
     <Container
       id="contact"
@@ -101,7 +106,7 @@ const Contact = () => {
     >
       <Typography
         variant="h2"
-        style={{ textAlign: 'center', fontWeight: 400, marginBottom: 25 }}
+        style={{ textAlign: "center", fontWeight: 400, marginBottom: 25 }}
       >
         Contact Me
       </Typography>
@@ -115,7 +120,7 @@ const Contact = () => {
         noValidate
         style={{
           marginTop: 80,
-          backgroundColor: 'white',
+          backgroundColor: "white",
           padding: 15,
           borderRadius: 15,
           boxShadow: "0 5px 8px rgba(10, 20, 10, 5.2)",
@@ -127,7 +132,7 @@ const Contact = () => {
             label="Name"
             variant="outlined"
             error={nameError}
-            helperText={nameError && 'Name must be more than 5 characters'}
+            helperText={nameError && "Name must be more than 5 characters"}
             value={name}
             onChange={handleNameChange}
             required
@@ -139,7 +144,7 @@ const Contact = () => {
             label="Email"
             variant="outlined"
             error={emailError}
-            helperText={emailError && 'A valid email is required'}
+            helperText={emailError && "A valid email is required"}
             value={email}
             onChange={handleEmailChange}
             required
@@ -153,7 +158,9 @@ const Contact = () => {
             label="Message"
             variant="outlined"
             error={messageError}
-            helperText={messageError && 'Message must be at least 150 characters'}
+            helperText={
+              messageError && "Message must be at least 150 characters"
+            }
             value={message}
             onChange={handleMsgChange}
           />
