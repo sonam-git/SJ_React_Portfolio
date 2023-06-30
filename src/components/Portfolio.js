@@ -28,7 +28,7 @@ const Portfolio = () => {
             title: "Stack Dev Portfolio",
             description: "Built On Advanced CSS",
             imgSrc: portfolio,
-            deployedLink: "https://sonam-git.github.io/professional-portfolio/Links",
+            deployedLink: "https://sonam-git.github.io/professional-portfolio/",
             githubLink: "https://github.com/sonam-git/professional-portfolio",
           },
           {

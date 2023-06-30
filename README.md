@@ -73,7 +73,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 2. Use the navigation titles to navigate through different sections of the portfolio.
 3. In the Portfolio section, browse through the showcased work samples of the developer.
 4. Head to the Contact section and fill out the contact form to get in touch with the developer. Ensure that you provide the required information accurately.
-5. Lastly, in the Resume section, you can view the developer's resume to gain further insights into their qualifications and experience.
+5. Lastly, in the Resume section, you can view the developer's resume to gain further insights into their qualifications and experience as well as download pdf version of it by clicking on download button attached within a page.
 
 ## Deployed GitHub-Pages Application Link:
 [Deployed GitHub-Pages Application Link:](https://)
