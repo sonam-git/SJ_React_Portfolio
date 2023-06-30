@@ -58,7 +58,7 @@ console.log('Rendering Header');
           </Link>
           <FontAwesomeIcon
             icon={faCode}
-            flip="horizontal"
+           
             size="xl"
             className={classes.icon}
           />
