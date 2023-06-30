@@ -2,7 +2,7 @@
   "name": "sj_react_portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sonam-git.github.io/",
+  "homepage": "https://sonam-git.github.io/SJ_React_Portfolio",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
