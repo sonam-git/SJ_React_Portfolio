@@ -1,3 +1,4 @@
+// import necessary packages
 import React from "react";
 import { Grid } from "@material-ui/core";
 import { Link } from "react-router-dom";
@@ -6,7 +7,9 @@ import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { makeStyles } from "@material-ui/core/styles";
 import Navbar from "./Navbar";
 
+ // hooks to apply the styling 
 const useStyles = makeStyles((theme) => ({
+   // the class or style for a container .
   container: {
     backgroundColor: "#222",
     padding: 0,
@@ -15,10 +18,12 @@ const useStyles = makeStyles((theme) => ({
     top: 0,
     zIndex: 100,
   },
+   // the class or style for a grid container .
   gridContainer: {
     justifyContent: "center",
     textAlign: "center",
   },
+   // the class or style for a title .
   title: {
     fontSize: "3rem", // Updated font size for responsiveness
     color: theme.palette.common.white,
@@ -27,11 +32,13 @@ const useStyles = makeStyles((theme) => ({
       fontSize: "2rem", // Adjust font size for smaller screens
     },
   },
+   // the class or style for a link .
   link: {
     margin: 0,
     textDecoration: "none",
     color: theme.palette.common.white,
   },
+   // the class or style for a icon .
   icon: {
     color: theme.palette.common.white,
     fontSize: "3rem", // Updated font size for responsiveness
@@ -42,6 +49,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const Header = ({ links }) => {
+  //  invokes the useStyles hook 
   const classes = useStyles();
   return (
     <>
@@ -58,5 +66,5 @@ const Header = ({ links }) => {
     </>
   );
 };
-
+// export Header
 export default Header;

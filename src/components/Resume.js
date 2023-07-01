@@ -1,3 +1,4 @@
+// import necessary packages/files
 import {
   Grid,
   Button,
@@ -10,6 +11,8 @@ import {
 import PDF from "../documents/sjResume.pdf";
 
 const Resume = () => {
+  // opens a new browser window to download a pdf file 
+  // when function is invoked after clicked the download resume button
   const handleDownload = () => {
     window.open(PDF);
   };
@@ -198,5 +201,5 @@ const Resume = () => {
     </Container>
   );
 };
-
+// export Resume
 export default Resume;

@@ -1,3 +1,4 @@
+// import necessary packages/files
 import React from "react";
 import {
   AppBar,
@@ -14,14 +15,17 @@ import DrawerComponent from "./DrawerComponent";
 import sonam from "../images/sonam.jpg";
 
 const Navbar = ({ links }) => {
+  //to access the current theme object provided by a UI 
   const theme = useTheme();
+  // hook to determine if the current viewport size matches a specified breakpoint range and functioning accordingly
   const isMatch = useMediaQuery(theme.breakpoints.down("sm", "md"));
+  // state variables defined using the useState
   const [value, setValue] = React.useState(0);
-
+// function to update the state variable value with the newValue.
   const handleTabChange = (event, newValue) => {
     setValue(newValue);
   };
-
+// styling for App Bar
   const appBarStyles = {
     backgroundImage:
       "linear-gradient(90deg, rgba(91,151,204,1) 0%, rgba(9,121,12,1) 35%, rgba(0,114,255,1) 100%)",
@@ -80,5 +84,5 @@ const Navbar = ({ links }) => {
     </AppBar>
   );
 };
-
+// export Navbar
 export default Navbar;

@@ -1,12 +1,15 @@
+// import necessary packages
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { Drawer, IconButton, List } from "@material-ui/core";
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import { ListItemButton, ListItemIcon, ListItemText } from "@mui/material";
-import { Link } from "react-router-dom";
 
-import React, { useState } from "react";
-
+// This component is for  displaying hamburger menu when the screen get smaller (for mobile view)
 const DrawerComponent = ({ links }) => {
+  // declares a state variable name
   const [open, setOpen] = useState(false);
+// set the state of a variable named open to false, when function is called
   const handleMenuItemClick = () => {
     setOpen(false);
   };
@@ -47,5 +50,5 @@ const DrawerComponent = ({ links }) => {
     </>
   );
 };
-
+// export DrawerComponent
 export default DrawerComponent;

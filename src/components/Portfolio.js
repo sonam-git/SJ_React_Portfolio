@@ -1,3 +1,4 @@
+// import necessary packages/files
 import { Grid, Typography } from "@material-ui/core";
 import Project from "./Project";
 import { Container } from "@mui/material";
@@ -77,5 +78,5 @@ const Portfolio = () => {
     </Container>
   );
 };
-
+// export Portfolio
 export default Portfolio;

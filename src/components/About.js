@@ -1,15 +1,19 @@
-import sonam from "../images/sonam.jpg";
+// import necessary packages/files
+import React, { useState } from "react";
 import { Container, Grid, Typography, Button } from "@mui/material";
 import { makeStyles } from "@material-ui/core/styles";
-import React, { useState } from "react";
+import sonam from "../images/sonam.jpg";
 
+// hooks to apply the styling 
 const useStyles = makeStyles((theme) => ({
+  // the class or style for a grid container .
   gridContainer: {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
     height: "100%",
   },
+  // the class or style for a profile image 
   profileImage: {
     width: 300,
     borderRadius: 16,
@@ -18,15 +22,20 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export const About = () => {
+  //  invokes the useStyles hook 
   const classes = useStyles();
+// This line declares a state variable name
   const [showFullText, setShowFullText] = useState(false);
+  // function to display the remaining text/paragraph in about section and back
   const handleReadMoreClick = () => {
     setShowFullText(true);
   };
   const handleBackClick = () => {
     setShowFullText(false);
   };
+
   return (
+    // About Section
     <Container
       id="about"
       maxWidth="lg"
@@ -148,5 +157,5 @@ export const About = () => {
     </Container>
   );
 };
-
+// Export About
 export default About;

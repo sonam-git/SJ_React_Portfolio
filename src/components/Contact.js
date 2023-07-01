@@ -1,3 +1,4 @@
+// import necessary packages
 import React, { useState, useEffect } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import {
@@ -49,7 +50,7 @@ const Contact = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    // Perform form validation
+    // Perform form user input validation
     let validForm = true;
 
     if (name.length <= 0) {
@@ -172,5 +173,5 @@ const Contact = () => {
     </Container>
   );
 };
-
+// Export Contact
 export default Contact;

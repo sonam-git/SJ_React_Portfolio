@@ -1,3 +1,4 @@
+// import necessary packages
 import { Box, Typography } from "@mui/material";
 import { makeStyles } from "@material-ui/core/styles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -43,8 +44,9 @@ const socials = [
     color: "#1877F2",
   },
 ];
-
+// hooks to apply the styling 
 const useStyles = makeStyles((theme) => ({
+   // the class or style for a footer.
   footer: {
     position: "fixed",
     bottom: 0,
@@ -56,12 +58,14 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "space-between",
     alignItems: "center",
   },
+   // the class or style for a socialIcon.
   socialIcon: {
     marginRight: theme.spacing(5),
     color: "white",
     cursor: "pointer",
     fontSize: 24,
   },
+   // the class or style for a desinger.
   designer: {
     color: "white",
     fontWeight: "bold",
@@ -99,5 +103,5 @@ export const Footer = () => {
     </Box>
   );
 };
-
+// export Footer
 export default Footer;
