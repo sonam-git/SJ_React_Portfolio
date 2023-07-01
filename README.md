@@ -76,7 +76,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 5. Lastly, in the Resume section, you can view the developer's resume to gain further insights into their qualifications and experience as well as download pdf version of it by clicking on download button attached within a page.
 
 ## Deployed GitHub-Pages Application Link:
-[Deployed GitHub-Pages Application Link:](https://)
+[Deployed GitHub-Pages Application Link:](https://sonam-git.github.io/SJ_React_Portfolio/)
 
 ## GitHub Repository:
 [GitHub Repository:](https://github.com/sonam-git/SJ_React_Portfolio)
