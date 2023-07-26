@@ -2,7 +2,7 @@
 import { Grid, Typography } from "@material-ui/core";
 import Project from "./Project";
 import { Container } from "@mui/material";
-import mvc from "../images/mvc.png";
+import mern from "../images/mern-stack.png";
 import portfolio from "../images/portfolio.png";
 import workscheduler from "../images/workscheduler.png";
 import quiz from "../images/quiz.png";
@@ -22,11 +22,11 @@ const Portfolio = () => {
       <Grid container spacing={2} style={{ marginTop: 70 }}>
         {[
           {
-            title: "MVC Tech Blog",
-            description: "CMS-Style Model View Controller Blog",
-            imgSrc: mvc,
-            deployedLink: "https://sj-mvc.herokuapp.com/",
-            githubLink: "https://github.com/sonam-git/MVC_Tech_Blog",
+            title: "MERN Project 3",
+            description: "interactive MERN stack SAP",
+            imgSrc: mern,
+            deployedLink: "https://alumni-book-app-cae10c9784e0.herokuapp.com/",
+            githubLink: "https://github.com/sonam-git/MEARN_Alumni_Book",
           },
           {
             title: "Stack Dev Portfolio",
