@@ -22,7 +22,7 @@ const Portfolio = () => {
       <Grid container spacing={2} style={{ marginTop: 70 }}>
         {[
           {
-            title: "MERN Project 3",
+            title: "MERN Alumni Book",
             description: "interactive MERN stack SAP",
             imgSrc: mern,
             deployedLink: "https://alumni-book-app-cae10c9784e0.herokuapp.com/",
