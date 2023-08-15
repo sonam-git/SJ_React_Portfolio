@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { Container, Grid, Typography, Button } from "@mui/material";
 import { makeStyles } from "@material-ui/core/styles";
-import sonam from "../images/sonam.jpg";
+import sonam from "../images/sonamphoto.jpg";
 
 // hooks to apply the styling 
 const useStyles = makeStyles((theme) => ({
@@ -133,9 +133,10 @@ export const About = () => {
                 <br></br>
                 Beyond his academic achievements, Sonam's interests and hobbies
                 are varied, reflecting his versatile nature. He finds joy in
-                traveling, sports, coding, and designing, allowing him to
+                Traveling, Music, Sports, Coding, and Designing, allowing him to
                 explore different facets of life and continuously learn and
-                grow. Fluent in English, Nepali, Sherpa, French, and Spanish,
+                grow. Fluent in English, Nepali, Sherpa, as well as basic knowledge of French, 
+                and Spanish,
                 Sonam's multilingual capabilities enable effective communication
                 across diverse cultures and communities.
                 <br />

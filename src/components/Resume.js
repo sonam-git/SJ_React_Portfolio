@@ -25,6 +25,7 @@ const Resume = () => {
         color: "white",
         borderRadius: 15,
         boxShadow: "0 5px 8px rgba(10, 20, 10, 5.2)",
+        
       }}
     >
       <Grid

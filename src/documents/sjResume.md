@@ -1,88 +1,71 @@
-# Sonam J Sherpa
-* Web Developer *
 
-[Email](mailto:sherpa.sjs@gmail.com) | [LinkedIn](https://www.linkedin.com/in/sonam-j-sherpa-0284b4b8/) | [GitHub](https://github.com/sonam-git)
+[Sonam J Sherpa]
 
----
+[Sonoma, CA, 95476]
+[Phone](707-721-6046) | [Email](mailto:sherpa.sjs@gmail.com) | [LinkedIn](https://www.linkedin.com/in/sonam-j-sherpa-0284b4b8/) | [GitHub](https://github.com/sonam-git)
 
-## Summary
-Experienced web developer with a passion for creating innovative solutions. Skilled in full-stack web development, agile methodologies, and team collaboration. Strong problem-solving and communication skills.
+--------------------------------------------------------------
+                              SUMMARY
+--------------------------------------------------------------
+Passionate and dedicated individual with a diverse background and a drive to make a positive impact. Seasoned professional with strong educational foundation including an AA in Full Stack Web Development from Santa Rosa Junior College and a Diploma in Electrical Engineering from BSET School in Nepal. Well-rounded skill set with proficiency in JavaScript, HTML, CSS, and various web development frameworks. Multilingual, fluent in English, Nepali, Sherpa, and possessing basic knowledge of French and Spanish.
 
----
+--------------------------------------------------------------
+                         WORK EXPERIENCE
+--------------------------------------------------------------
+Guide
+Nepal, [2010-2016]
+- Led and facilitated trekking and mountaineering expeditions, ensuring safety and enjoyable experiences for clients.
+- Developed strong communication and leadership skills by working closely with diverse groups.
 
-## Skills
-- Programming Languages: JavaScript,PHP
-- Web Development: HTML, CSS, React, Node.js
-- Databases: MongoDB, MySql
+Server
+La Casa Restaurant, Sonoma, CA | [2017-Present]
+- Delivered exceptional customer service by attending to customer needs and ensuring a pleasant dining experience.
+- Managed high-pressure situations, demonstrating strong problem-solving skills.
+
+Secretary
+Himalayan Community of Sonoma, Sonoma, CA | [2018-Present]
+- Assisted in administrative tasks, event coordination, and communication within a non-profit organization.
+- Contributed to community-building initiatives and enhanced organizational efficiency.
+
+Website Project Developer
+Burbank Housing, [2022]
+- Collaborated with a team to design and develop a website for Burbank Housing, enhancing online presence and user experience.
+- Utilized HTML, CSS, JavaScript, and various frameworks to create an interactive and visually appealing website.
+
+--------------------------------------------------------------
+                           EDUCATION
+--------------------------------------------------------------
+AA in Full Stack Web Development
+Santa Rosa Junior College, Santa Rosa, CA [2022]
+
+Full Stack Bootcamp Coding Graduate
+UC Berkeley Extension, [2023]
+
+Diploma in Electrical Engineering
+Balaju School of Engineering, Nepal [2007]
+
+--------------------------------------------------------------
+                        TECHNICAL SKILLS
+--------------------------------------------------------------
+- JavaScript, PHP, HTML, CSS
+- Stack: MERN, LAMP
+- Web Development: Wordpress, Next, React, jQuery, Vue, Hammer, Bootstrap, Material UI, Chakra UI, Bulma
+- Databases: MongoDB, MySQL, Firebase
 - Version Control: Git, GitHub
+- Deployment: Heroku, Vercel
 - Agile Methodologies: Scrum, Kanban
 - Problem Solving, Collaboration, Communication, Code Debugging
+--------------------------------------------------------------
+                          LANGUAGES
+--------------------------------------------------------------
+Fluent: English, Nepali, Sherpa
+Basic: French, Spanish, Hindi
 
----
+--------------------------------------------------------------
+                         INTERESTS
+--------------------------------------------------------------
+Traveling, Music, Sports, Coding, Designing
 
-## Experience
-
-### Trekking and Adventure in Nepal (2010 - 2015)
-- Worked as a Guide in Atalante Mountaineering, Nepal.
-- Built personal relationships with guests to promote positive experiences.
-- Answered questions, pointed out important features and offered further details about special exhibits to educate visitors.
-- Utilized effective communication and problem solving skills to quickly resolve customer issues.
-- Established positive relationships with tour members through fun and engaging converstion
-
-### Customer Service and Hospitality (2016-Present)
-- Working as a Server in La Casa De Sonoma since 2016.
-- Served food and beverages promptly with focused attention to customer needs.
-- Work with POS & Toast system to place orders, manage bills, and handle complimentary items.
-- Cultivated warm relationships with regular customers.
-- Maintained clean and organized dinning areas to uphold restaurant hygeine standards.
-
----
-
-## Education
-
-### AA in Full Stack Web Developer, Santa Rosa Junior College (2020-2023)
-### Diploma in Electrical Engineering , BSET, Nepal (2010)
-### 24 Weeks Full Flex Web Developer, UC Berkeley Extension (2023)
-
----
-
-## Projects
-
-### Personal Portfolio Website
-- Designed and developed a responsive portfolio website using HTML, CSS, and JavaScript.
-- Showcased projects and skills to demonstrate expertise.
-- Deployed the website using GitHub Pages.
-
-### Worked for building Website 
-- Worked for the team who re created the website of the housing company named BurBank Housing.
-
-### Task Management App
-- Created a task management application using React and Node.js.
-- Implemented features such as task creation, assignment, and completion tracking.
-- Integrated with a MongoDB database to store task data.
-- Deployed the application on Heroku.
-
----
-
-## Certifications
-
-- AWS Certified Developer - Associate (2019)
-- Scrum Master Certified (2017)
-
-
----
-
-## Languages
-
-- English (Fluent)
-- French (Intermediate)
-- Spanish (Basic)
-- Nepali (Fluent)
-- Sherpa (Fluent)
-- Tibetan (Basic)
-- Hindi (Basic)
-
----
-
-
-
+--------------------------------------------------------------
+                      REFERENCES AVAILABLE UPON REQUEST
+--------------------------------------------------------------
