@@ -3,7 +3,7 @@ import { Grid, Typography } from "@material-ui/core";
 import Project from "./Project";
 import { Container } from "@mui/material";
 import mern from "../images/mern-stack.png";
-import portfolio from "../images/portfolio.png";
+import project2 from "../images/project2.png";
 import workscheduler from "../images/workscheduler.png";
 import quiz from "../images/quiz.png";
 import emotionomics from "../images/emotionomics.png";
@@ -29,11 +29,11 @@ const Portfolio = () => {
             githubLink: "https://github.com/sonam-git/MEARN_Alumni_Book",
           },
           {
-            title: "Stack Dev Portfolio",
-            description: "Built On Advanced CSS",
-            imgSrc: portfolio,
-            deployedLink: "https://sonam-git.github.io/professional-portfolio/",
-            githubLink: "https://github.com/sonam-git/professional-portfolio",
+            title: "Full Stack App ",
+            description: "Built On JS, and Server Side API",
+            imgSrc: project2,
+            deployedLink: "hhttps://tech-ing-prep.herokuapp.com/",
+            githubLink: "https://github.com/sonam-git/Tech_Int_Prep",
           },
           {
             title: "Online Workday Scheduler",
