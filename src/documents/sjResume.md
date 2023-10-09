@@ -18,7 +18,8 @@ Burbank Housing, [2022]
 - Collaborated with a team to design and develop a website for Burbank Housing, enhancing online presence and user experience.
 - Utilized HTML, CSS, JavaScript, PHP and MySQL using open-source web development stack known as LAMP.
 
-Guide Nepal, [2010-2016]
+Guide Nepal
+Atalante Mountaineering, [2010-2016] [2010-2016]
 - Led and facilitated trekking and mountaineering expeditions, ensuring safety and enjoyable experiences for clients.
 - Developed strong communication and leadership skills by working closely with diverse groups.
 
@@ -52,9 +53,9 @@ Balaju School of Engineering, Nepal [2007]
 --------------------------------------------------------------
                         TECHNICAL SKILLS
 --------------------------------------------------------------
-- JavaScript, PHP, HTML, CSS
+- JavaScript, HTML, CSS, PHP (familiar)
 - Stack: MERN, LAMP
-- Web Development: Wordpress, Next, React, jQuery, Vue, Hammer, Bootstrap, Material UI, Chakra UI, Bulma
+- Web Development: Wordpress, Next, React, jQuery, Bootstrap, Material UI, Chakra UI, Bulma
 - Databases: MongoDB, MySQL, Firebase
 - Version Control: Git, GitHub
 - Deployment: Heroku, Vercel
