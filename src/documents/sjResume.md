@@ -12,8 +12,13 @@ Passionate and dedicated individual with a diverse background and a drive to mak
 --------------------------------------------------------------
                          WORK EXPERIENCE
 --------------------------------------------------------------
-Guide
-Nepal, [2010-2016]
+
+Website Project Developer
+Burbank Housing, [2022]
+- Collaborated with a team to design and develop a website for Burbank Housing, enhancing online presence and user experience.
+- Utilized HTML, CSS, JavaScript, PHP and MySQL using open-source web development stack known as LAMP.
+
+Guide Nepal, [2010-2016]
 - Led and facilitated trekking and mountaineering expeditions, ensuring safety and enjoyable experiences for clients.
 - Developed strong communication and leadership skills by working closely with diverse groups.
 
@@ -27,22 +32,22 @@ Himalayan Community of Sonoma, Sonoma, CA | [2018-Present]
 - Assisted in administrative tasks, event coordination, and communication within a non-profit organization.
 - Contributed to community-building initiatives and enhanced organizational efficiency.
 
-Website Project Developer
-Burbank Housing, [2022]
-- Collaborated with a team to design and develop a website for Burbank Housing, enhancing online presence and user experience.
-- Utilized HTML, CSS, JavaScript, and various frameworks to create an interactive and visually appealing website.
+
 
 --------------------------------------------------------------
                            EDUCATION
 --------------------------------------------------------------
 AA in Full Stack Web Development
 Santa Rosa Junior College, Santa Rosa, CA [2022]
+- The 19-unit Web Full-Stack Developer Certificate of Achievement or AS Degree provides a course of study that prepares students to work on client and server-side web and mobile development. This pathway leads to opportunities for a career in web and mobile development. The Web Full-Stack Developer certificate focuses on the core front-end web and mobile technologies of HTML, CSS, and JavaScript as well as server-side development using the PHP and JavaScript languages together with SQL and NoSQL databases.
 
 Full Stack Bootcamp Coding Graduate
 UC Berkeley Extension, [2023]
+- A 24 Week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, MySQL, MongoDB, Matrial UI, Express.js, Node.js, Handlebars.js, and React.js.
 
 Diploma in Electrical Engineering
 Balaju School of Engineering, Nepal [2007]
+- A 3 Year skill-enabling engineering programme that students can pursue after completing class 10. The course deals with installation, maintenance, troubleshooting, magnetism, control systems, signal processing and telecommunications.
 
 --------------------------------------------------------------
                         TECHNICAL SKILLS

@@ -55,13 +55,13 @@ const Resume = () => {
               <List>
                 <ListItem>
                   <ListItemText>
-                    <strong>Languages:</strong> JavaScript, HTML, CSS
+                    <strong>Languages:</strong> HTML, CSS, JavaScript, Express.js, Node.js, Handlebars.js, Content Management System(CMS), PHP(familiar), C++(familiar)
                   </ListItemText>
                 </ListItem>
                 <ListItem>
                   <ListItemText>
-                    <strong>Libraries / Frameworks:</strong> React, jQuery,
-                    Next, Bootstrap, Material UI, Chakra UI, Bulma
+                    <strong>Libraries / Frameworks:</strong> React.js, jQuery,
+                    Next.js, Bootstrap, Material UI, Chakra UI, Bulma
                   </ListItemText>
                 </ListItem>
                 <ListItem>
@@ -73,6 +73,11 @@ const Resume = () => {
                   <ListItemText>
                     <strong>Tools / Platforms:</strong> Git, GitHub, Heroku,
                     Vercel
+                  </ListItemText>
+                </ListItem>
+                <ListItem>
+                  <ListItemText>
+                    <strong>MS Office :</strong> Word, Excel, PowerPoint
                   </ListItemText>
                 </ListItem>
               </List>
@@ -89,12 +94,6 @@ const Resume = () => {
           <Typography variant="h6" style={{ fontWeight: 400 }}>
             Santa Rosa Junior Collage 2023
           </Typography>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac odio
-            eget est convallis ullamcorper. Duis bibendum vestibulum risus, non
-            convallis odio aliquam eu.
-          </Typography>
           <br></br>
           <Typography variant="h6">
             {" "}
@@ -103,101 +102,33 @@ const Resume = () => {
           <Typography variant="h6" style={{ fontWeight: 400 }}>
             UC Berkeley Extension
           </Typography>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac odio
-            eget est convallis ullamcorper. Duis bibendum vestibulum risus, non
-            convallis odio aliquam eu.
-          </Typography>
           <br></br>
           <Typography variant="h6">Diploma in Electrical Engineer</Typography>
           <Typography variant="h6" style={{ fontWeight: 400 }}>
             BSET Kathmandu, Nepal 2010
-          </Typography>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac odio
-            eget est convallis ullamcorper. Duis bibendum vestibulum risus, non
-            convallis odio aliquam eu.
           </Typography>
         </Grid>
 
         <Grid item xs={12} md={6}>
           <Typography variant="h4">Work Experience</Typography>
           <hr className="star-secondary" />
+          <Typography variant="h6">
+            Worked for a project to rebuild Burbank Housing Website
+          </Typography>
+          <Typography variant="h6" style={{ fontWeight: 400 }}>
+            Santa Rosa Junior College Web Project Team 2022
+          </Typography>
+          <br></br>
           <Typography variant="h6">Customer Service and Hospitality</Typography>
           <Typography variant="h6" style={{ fontWeight: 400 }}>
             Worked as Server since 2016
-          </Typography>
-          <Typography style={{ marginBottom: 15 }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac odio
-            eget est convallis ullamcorper. Duis bibendum vestibulum risus, non
-            convallis odio aliquam eu.
           </Typography>
           <br></br>
           <Typography variant="h6">Trekking and Adventure in Nepal</Typography>
           <Typography variant="h6" style={{ fontWeight: 400 }}>
             Worked as Trekking Guide 2010 - 2015
           </Typography>
-          <Typography style={{ marginBottom: 15 }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac odio
-            eget est convallis ullamcorper. Duis bibendum vestibulum risus, non
-            convallis odio aliquam eu.
-          </Typography>
-          <br></br>
-          <Typography variant="h6">
-            Working for Non Profit Organization
-          </Typography>
-          <Typography variant="h6" style={{ fontWeight: 400 }}>
-            Himalayan Sherpa Club
-          </Typography>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac odio
-            eget est convallis ullamcorper. Duis bibendum vestibulum risus, non
-            convallis odio aliquam eu.
-          </Typography>
-        </Grid>
-
-        <Grid item xs={12}>
-          <Typography variant="h6">Proficiencies</Typography>
-        </Grid>
-        <Grid container spacing={2}>
-          <Grid item xs={12} sm={6}>
-            <List>
-              <ListItem>
-                <ListItemText primary="HTML/CSS" />
-              </ListItem>
-              <ListItem>
-                <ListItemText primary="JavaScript" />
-              </ListItem>
-              <ListItem>
-                <ListItemText primary="WordPress" />
-              </ListItem>
-              <ListItem>
-                <ListItemText primary="MongoDB" />
-              </ListItem>
-            </List>
-          </Grid>
-          <Grid item xs={12} sm={6}>
-            <List>
-              <ListItem>
-                <ListItemText primary="Express" />
-              </ListItem>
-              <ListItem>
-                <ListItemText primary="React" />
-              </ListItem>
-              <ListItem>
-                <ListItemText primary="Node.js" />
-              </ListItem>
-              <ListItem>
-                <ListItemText primary="SQL" />
-              </ListItem>
-            </List>
-          </Grid>
-        </Grid>
+        </Grid>    
       </Grid>
     </Container>
   );
