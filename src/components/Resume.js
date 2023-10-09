@@ -97,7 +97,7 @@ const Resume = () => {
           <br></br>
           <Typography variant="h6">
             {" "}
-            24 Weeks Full Flex Web Developer
+            24 Weeks Full Flex Web Developer 2023
           </Typography>
           <Typography variant="h6" style={{ fontWeight: 400 }}>
             UC Berkeley Extension
