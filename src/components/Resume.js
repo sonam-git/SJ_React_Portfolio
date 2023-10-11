@@ -121,12 +121,12 @@ const Resume = () => {
           <br></br>
           <Typography variant="h6">Customer Service and Hospitality</Typography>
           <Typography variant="h6" style={{ fontWeight: 400 }}>
-            Worked as Server since 2016 / La Casa Restaurant & Bar
+            Working as Server since 2016 / La Casa Restaurant & Bar
           </Typography>
           <br></br>
           <Typography variant="h6">Trekking and Adventure in Nepal</Typography>
           <Typography variant="h6" style={{ fontWeight: 400 }}>
-            Worked as Trekking Guide 2010 - 2015 / Atalante Mountaineering
+            Worked as a Trekking Guide 2010 - 2015 / Atalante Mountaineering
           </Typography>
         </Grid>    
       </Grid>
