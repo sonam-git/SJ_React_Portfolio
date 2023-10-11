@@ -105,7 +105,7 @@ const Resume = () => {
           <br></br>
           <Typography variant="h6">Diploma in Electrical Engineer</Typography>
           <Typography variant="h6" style={{ fontWeight: 400 }}>
-            BSET Kathmandu, Nepal 2010
+            Balaju School of Engineering & Technology, Kathmandu, Nepal 2010
           </Typography>
         </Grid>
 
@@ -116,17 +116,17 @@ const Resume = () => {
             Worked for a project to rebuild Burbank Housing Website
           </Typography>
           <Typography variant="h6" style={{ fontWeight: 400 }}>
-            Santa Rosa Junior College Web Project Team 2022
+            Santa Rosa Junior College / Web Project Team 2022
           </Typography>
           <br></br>
           <Typography variant="h6">Customer Service and Hospitality</Typography>
           <Typography variant="h6" style={{ fontWeight: 400 }}>
-            Worked as Server since 2016
+            Worked as Server since 2016 / La Casa Restaurant & Bar
           </Typography>
           <br></br>
           <Typography variant="h6">Trekking and Adventure in Nepal</Typography>
           <Typography variant="h6" style={{ fontWeight: 400 }}>
-            Worked as Trekking Guide 2010 - 2015
+            Worked as Trekking Guide 2010 - 2015 / Atalante Mountaineering
           </Typography>
         </Grid>    
       </Grid>
