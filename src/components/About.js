@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { Container, Grid, Typography, Button } from "@mui/material";
 import { makeStyles } from "@material-ui/core/styles";
-import sonam from "../images/sonamphoto.jpg";
+import sonam from "../images/sj_profile.JPG";
 
 // hooks to apply the styling 
 const useStyles = makeStyles((theme) => ({
