@@ -32,7 +32,7 @@ const Portfolio = () => {
             title: "Full Stack App ",
             description: "Built On JS, and Server Side API",
             imgSrc: project2,
-            deployedLink: "hhttps://tech-ing-prep.herokuapp.com/",
+            deployedLink: "https://tech-ing-prep.herokuapp.com/",
             githubLink: "https://github.com/sonam-git/Tech_Int_Prep",
           },
           {
