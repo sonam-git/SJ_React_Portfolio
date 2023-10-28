@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SJ_React_Portfolio/static/css/main.f2a34baa.css",
-    "main.js": "/SJ_React_Portfolio/static/js/main.5f55b22e.js",
+    "main.js": "/SJ_React_Portfolio/static/js/main.59ad1e4a.js",
     "static/media/sj_profile.JPG": "/SJ_React_Portfolio/static/media/sj_profile.b832fd7d43be1ea11d3d.JPG",
     "static/media/project2.png": "/SJ_React_Portfolio/static/media/project2.430c092d92c507d07b98.png",
     "static/media/emotionomics.png": "/SJ_React_Portfolio/static/media/emotionomics.db8fb5965574e2a70208.png",
@@ -13,10 +13,10 @@
     "static/media/quiz.png": "/SJ_React_Portfolio/static/media/quiz.39bfae27b007ef16360f.png",
     "index.html": "/SJ_React_Portfolio/index.html",
     "main.f2a34baa.css.map": "/SJ_React_Portfolio/static/css/main.f2a34baa.css.map",
-    "main.5f55b22e.js.map": "/SJ_React_Portfolio/static/js/main.5f55b22e.js.map"
+    "main.59ad1e4a.js.map": "/SJ_React_Portfolio/static/js/main.59ad1e4a.js.map"
   },
   "entrypoints": [
     "static/css/main.f2a34baa.css",
-    "static/js/main.5f55b22e.js"
+    "static/js/main.59ad1e4a.js"
   ]
 }
