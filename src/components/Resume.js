@@ -1,3 +1,8 @@
+
+
+
+
+
 // import necessary packages/files
 import {
   Grid,
@@ -11,7 +16,7 @@ import {
 import PDF from "../documents/sjResume.pdf";
 
 const Resume = () => {
-  // opens a new browser window to download a pdf file 
+  // opens a new browser window to download a pdf file
   // when function is invoked after clicked the download resume button
   const handleDownload = () => {
     window.open(PDF);
@@ -21,11 +26,10 @@ const Resume = () => {
       fixed
       style={{
         marginBottom: 150,
-        backgroundColor: "#222",
-        color: "white",
+        backgroundColor: "white",
+        color: "#222",
         borderRadius: 15,
         boxShadow: "0 5px 8px rgba(10, 20, 10, 5.2)",
-        
       }}
     >
       <Grid
@@ -55,7 +59,9 @@ const Resume = () => {
               <List>
                 <ListItem>
                   <ListItemText>
-                    <strong>Languages:</strong> HTML, CSS, JavaScript, Express.js, Node.js, Handlebars.js, Content Management System(CMS), PHP(familiar), C++(familiar)
+                    <strong>Languages:</strong> HTML, CSS, JavaScript,
+                    Express.js, Node.js, Handlebars.js, Content Management
+                    System(CMS), PHP(familiar), C++(familiar)
                   </ListItemText>
                 </ListItem>
                 <ListItem>
@@ -128,10 +134,11 @@ const Resume = () => {
           <Typography variant="h6" style={{ fontWeight: 400 }}>
             Worked as a Trekking Guide 2010 - 2015 / Atalante Mountaineering
           </Typography>
-        </Grid>    
+        </Grid>
       </Grid>
     </Container>
   );
 };
 // export Resume
 export default Resume;
+

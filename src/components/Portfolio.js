@@ -63,6 +63,7 @@ const Portfolio = () => {
             deployedLink: "https://sonam-git.github.io/Weather_Dashboard/",
             githubLink: "https://github.com/sonam-git/Weather_Dashboard",
           },
+          
         ].map((project, index) => (
           <Grid item key={index} xs={12} md={4}>
             <Project
@@ -74,6 +75,11 @@ const Portfolio = () => {
             />
           </Grid>
         ))}
+      </Grid>
+      <Grid style={{marginTop: 40}}>
+      <Typography style={{color: 'red',textAlign: "left", fontFamily: 'monospace', fontWeight: 'bold' }}>Disclaimer: Please note that several of these projects were hosted on the free 
+        version of Heroku, which discontinued its free services in late 2023. While the GitHub repositories are linked, 
+        it is probable that the applications are currently offline. I apologize for any inconvenience this may cause.</Typography>
       </Grid>
     </Container>
   );
