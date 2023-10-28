@@ -14,6 +14,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "#222",
     padding: 0,
     width: "100%",
+    minHeight:100,
     position: "fixed",
     top: 0,
     zIndex: 100,
@@ -56,7 +57,7 @@ const Header = ({ links }) => {
       <Grid container className={classes.container}>
         <Grid item xs={12} className={classes.gridContainer}>
           <FontAwesomeIcon icon={faCode} size="xl" className={classes.icon} />
-          <Link to="/" className={`${classes.link} ${classes.title}`}>
+          <Link to="/SJ_React_Portfolio/about" className={`${classes.link} ${classes.title}`}>
             Sonam J Sherpa
           </Link>
           <FontAwesomeIcon icon={faCode} size="xl" className={classes.icon} />
