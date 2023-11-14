@@ -112,7 +112,7 @@ export const About = () => {
                 I am Sonam J Sherpa, a dedicated professional with a wealth of
                 experience across various roles, fueled by a strong desire to
                 make a positive contribution. My educational background
-                encompasses an AA in Full Stack web development from Santa Rosa
+                encompasses an AS (Associate of Science) as Web Full Stack developer from Santa Rosa
                 Junior College, a recent completion of the 24 Weeks Full Stack
                 Web Developer program at UC Berkeley Extension, and a Diploma in
                 Electrical Engineering from BSET school in Nepal, equipping me

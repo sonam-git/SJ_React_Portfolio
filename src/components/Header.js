@@ -62,7 +62,7 @@ const Header = ({ links }) => {
           </Link>
           <FontAwesomeIcon icon={faCode} size="xl" className={classes.icon} />
         </Grid>
-        <Navbar links={links} />
+       <Navbar links={links} />
       </Grid>
       
     </>

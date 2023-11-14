@@ -127,7 +127,7 @@ const Resume = () => {
           <br></br>
           <Typography variant="h6">Customer Service and Hospitality</Typography>
           <Typography variant="h6" style={{ fontWeight: 400 }}>
-            Working as Server since 2016 / La Casa Restaurant & Bar
+            Working as Server 2017 - 2020 / La Casa Restaurant & Bar
           </Typography>
           <br></br>
           <Typography variant="h6">Trekking and Adventure in Nepal</Typography>
