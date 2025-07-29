@@ -1,5 +1,5 @@
 # Sonam J Sherpa
-Phone: (707) 721-6046 | Email: sherpa.sjs@gmail.com | Sonoma, CA
+Phone: (707) xxx-xxxx | Email: sherpa.sjs@gmail.com | Sonoma, CA
 LinkedIn: [sonamjsherpa](https://www.linkedin.com/in/sonamjsherpa) | GitHub: [/sonam-git](https://github.com/sonam-git) | GitHub Portfolio: [/SJ_React_Portfolio/](https://github.com/SJ_React_Portfolio/)
 
 ---
